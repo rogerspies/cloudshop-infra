@@ -1,0 +1,17 @@
+# State local
+*.tfstate
+*.tfstate.backup
+
+# Backend e providers
+.terraform/
+
+# Arquivos de plan
+tfplan*
+
+# Variáveis sensíveis
+terraform.tfvars
+*.auto.tfvars
+
+# Credenciais
+*.pem
+*.key
