@@ -75,5 +75,5 @@ module "aks" {
   project_name        = var.project_name
   resource_group_name = azurerm_resource_group.main.name
   location            = var.location
-  subnet_id           = module.vnet.private_subnet_id
+  subnet_id           = module.vnet.public_subnet_id
 }
